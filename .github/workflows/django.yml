@@ -17,7 +17,7 @@ jobs:
     - name: Check out sources 
       uses: actions/checkout@v3
     - name: Prepare container
-    - run: ./scripts/prepare-container-focal.sh 
+      run: ./scripts/prepare-container-focal.sh 
     - name: Clone libs
       run: ./clone_libs.sh
     - name: Install bml
