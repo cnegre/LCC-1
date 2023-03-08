@@ -9,16 +9,9 @@ for i in $(seq 5); do
 done
 
 ${SUDO} apt-get install --assume-yes --no-install-recommends \
-  apt-transport-https \
-  ca-certificates \
-  gnupg \
-  wget
-
-${SUDO} apt-get install --assume-yes --no-install-recommends \
   build-essential \
   bundler \
   cmake cmake-data \
-  emacs27 \
   gcc-9 g++-9 gfortran-9 \
   gcc-10 g++-10 gfortran-10 \
   gcc-11 g++-11 gfortran-11 \
@@ -30,7 +23,5 @@ ${SUDO} apt-get install --assume-yes --no-install-recommends \
   libopenmpi-dev \
   make \
   pkg-config \
-  python \
-  python3-numpy \
-  python-numpy \
+  python3* \
   sudo
