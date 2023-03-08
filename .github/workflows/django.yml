@@ -24,5 +24,7 @@ jobs:
       run: ./build_bml.sh
     - name: Install progress
       run: ./build_progress.sh
+    - name: Install lcc
+      run: ./build.sh
     - name: Run tests
       run: pushd tests ; ./run_tests 
