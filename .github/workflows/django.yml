@@ -17,10 +17,12 @@ jobs:
     - name: Check out sources 
       uses: actions/checkout@v3
     - name: Prepare container
-      run: ./prepare-container-focal.sh 
+      run: ./prepare-container.sh 
     - name: Clone libs
       run: ./clone_libs.sh
     - name: Install bml
       run: ./build_bml.sh
     - name: Install progress
       run: ./build_progress.sh
+    - name: Run tests
+      run: pushd tests ; ./run_tests 
