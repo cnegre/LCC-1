@@ -14,29 +14,6 @@ ${SUDO} apt-get install --assume-yes --no-install-recommends \
   gnupg \
   wget
 
-cat <<EOF | ${SUDO} tee /etc/apt/sources.list.d/toolchain.list
-deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu focal main
-# deb-src http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu focal main
-EOF
-${SUDO} apt-key adv --keyserver keyserver.ubuntu.com \
-  --recv-keys 60C317803A41BA51845E371A1E9377A2BA9EF27F
-
-cat <<EOF | ${SUDO} tee /etc/apt/sources.list.d/emacs.list
-deb http://ppa.launchpad.net/kelleyk/emacs/ubuntu focal main
-# deb-src http://ppa.launchpad.net/kelleyk/emacs/ubuntu focal main
-EOF
-${SUDO} apt-key adv --keyserver keyserver.ubuntu.com \
-  --recv-keys 873503A090750CDAEB0754D93FF0E01EEAAFC9CD
-
-for i in $(seq 5); do
-  ${SUDO} apt-get update && break
-done
-
-${SUDO} ln -fs /usr/share/zoneinfo/UTC /etc/localtime
-${SUDO} apt-get install --assume-yes tzdata
-DEBIAN_FRONTEND=noninteractive ${SUDO} dpkg-reconfigure \
-  --frontend noninteractive tzdata
-
 ${SUDO} apt-get install --assume-yes --no-install-recommends \
   build-essential \
   bundler \
