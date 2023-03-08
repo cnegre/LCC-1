@@ -23,5 +23,5 @@ ${SUDO} apt-get install --assume-yes --no-install-recommends \
   libopenmpi-dev \
   make \
   pkg-config \
-  python3* \
+  python3-numpy \
   sudo
