@@ -1,6 +1,13 @@
 LCC
 ===
 
+.. list-table:: 
+  :header-row: 1
+
+  * - Issues
+    - Pull Requests
+    - CI
+
 # About
 
 Los Alamos Crystal Cut (LCC) is simple crystal builder. It is an easy-to-use 
