@@ -6,15 +6,15 @@
     - Pull Requests
     - CI
     - Docker
-  * - .. image:: https://img.shields.io/github/issues/lanl/LCC.svg
+  * - .. image:: https://img.shields.io/github/issues/cnegre/LCC-1.svg
         :alt: GitHub issues
-        :target: https://github.com/lanl/LCC/issues
-    - .. image:: https://img.shields.io/github/issues-pr/lanl/LCC.svg
+        :target: https://github.com/cnegre/LCC-1/issues
+    - .. image:: https://img.shields.io/github/issues-pr/cnegre/LCC-1.svg
         :alt: GitHub pull requests
-        :target: https://github.com/lanl/LCC/pulls
-    - .. image:: https://github.com/lanl/LCC/workflows/CI/badge.svg
+        :target: https://github.com/cnegre/LCC-1/pulls
+    - .. image:: https://github.com/cnegre/LCC/workflows/CI/badge.svg
         :alt: GitHub Actions
-        :target: https://github.com/lanl/LCC/actions
+        :target: https://github.com/cnegre/LCC-1/actions
 
 
 LCC
