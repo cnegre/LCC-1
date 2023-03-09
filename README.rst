@@ -1,5 +1,3 @@
-LCC
-===
 
 .. list-table:: 
   :header-rows: 1
@@ -18,6 +16,9 @@ LCC
         :alt: GitHub Actions
         :target: https://github.com/lanl/LCC/actions
 
+
+LCC
+===
 
 About
 -----
