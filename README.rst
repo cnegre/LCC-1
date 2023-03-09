@@ -7,8 +7,20 @@ LCC
   * - Issues
     - Pull Requests
     - CI
+    - Docker
+  * - .. image:: https://img.shields.io/github/issues/lanl/LCC.svg
+        :alt: GitHub issues
+        :target: https://github.com/lanl/LCC/issues
+    - .. image:: https://img.shields.io/github/issues-pr/lanl/LCC.svg
+        :alt: GitHub pull requests
+        :target: https://github.com/lanl/LCC/pulls
+    - .. image:: https://github.com/lanl/LCC/workflows/CI/badge.svg
+        :alt: GitHub Actions
+        :target: https://github.com/lanl/LCC/actions
 
-# About
+
+About
+-----
 
 Los Alamos Crystal Cut (LCC) is simple crystal builder. It is an easy-to-use 
 and easy-to-develop code to make crystal solid/shape and slabs from a crystal lattice. 
@@ -18,7 +30,8 @@ create a solid or slab from command line. The core developer of this code is Chr
 
 
 
-# License
+License
+-------
 
 © 2022. Triad National Security, LLC. All rights reserved. This program was produced under U.S. 
 Government contract 89233218CNA000001 for Los Alamos National Laboratory (LANL), 
@@ -54,7 +67,8 @@ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Requirements
+Requirements
+------------
 
 In order to follow this tutorial, we will assume that the reader have a
 `LINUX` or `MAC` operative system with the following packages properly
@@ -86,13 +100,15 @@ typed are the following:
 follower will work and install the programs in the home directory
 (`$HOME`).
 
-# Download and installation
+Download and installation
+---------------------------
 
 We will need to clone the repository as follows:
 
           $ cd; git@github.com:lanl/LCC.git
 
-# Compiling PROGRESS and BML libraries
+Compiling PROGRESS and BML libraries
+------------------------------------
 
 The LCC code needs to be compiled with both
 [PROGRESS](https://github.com/lanl/qmd-progress) and
@@ -110,7 +126,8 @@ In principle one should be able to install everything by typing:
 
 Which will also build LCC with its binary file in `./src/lcc_main`.
 
-# Step-by-step install
+Step-by-step install
+--------------------
 
 Clone the BML library (in your home directory) by doing[^1]:
 
@@ -154,7 +171,8 @@ same steps as for the bml library.
 You can test the installation by typing `$ make tests` in the same way
 as it is done for BML.
 
-# LCC
+LCC
+---
 
 Open the `Makefile` file in the `lcc/src` folder make sure the
 path to both bml and progress libs are set correctly. NOTE: Sometimes,
@@ -162,7 +180,8 @@ depending on the architecture the libraries are installed in `/lib64`
 instead of `/lib`. After the afforemention changes are done to the
 `Makefile` file proceed compiling with the “make” command.
 
-# Contributors
+Contributors
+------------
 
 Christian Negre, email: cnegre@lanl.gov
 
@@ -173,7 +192,8 @@ Andrew Alvarado, email: aalvarado@lanl.gov
     account and make sure to add your public ssh key is added in the
     configuration windows of github account.
 
-# Contributing                                                                                                            
+Contributing                                                                                                            
+------------
 
 Formally request to be added as a collaborator to the project by sending an email to cnegre@lanl.gov. 
 After being added to the project do the followig:
