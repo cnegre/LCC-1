@@ -5,7 +5,6 @@
   * - Issues
     - Pull Requests
     - CI
-    - Docker
   * - .. image:: https://img.shields.io/github/issues/cnegre/LCC-1.svg
         :alt: GitHub issues
         :target: https://github.com/cnegre/LCC-1/issues
