@@ -27,4 +27,4 @@ jobs:
     - name: Install lcc
       run: ./build.sh
     - name: Run tests
-      run: pushd tests ; ./run_tests 
+      run: pushd tests ; ./run_test.sh 
