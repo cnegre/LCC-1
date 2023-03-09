@@ -11,10 +11,11 @@
     - .. image:: https://img.shields.io/github/issues-pr/cnegre/LCC-1.svg
         :alt: GitHub pull requests
         :target: https://github.com/cnegre/LCC-1/pulls
-    - .. image:: https://github.com/cnegre/LCC-1/workflows/CI/badge.svg
+    - .. image:: https://github.com/cnegre/LCC-1/actions/workflows/CI/badge.svg
         :alt: GitHub Actions
         :target: https://github.com/cnegre/LCC-1/actions
 
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 LCC
 ===
