@@ -2,7 +2,7 @@ LCC
 ===
 
 .. list-table:: 
-  :header-row: 1
+  :header-rows: 1
 
   * - Issues
     - Pull Requests
